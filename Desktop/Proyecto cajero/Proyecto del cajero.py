@@ -1,18 +1,18 @@
 #Cajero automático
 
-lista_nombres = ["Sofía", "Mateo", "Isabella", "Lucas", "Valentina", "Alejandro", "Emma", 
-                 "Santiago", "Martina", "Sebastián", "Camila", "Nicolás", "Valeria", "Gabriel", 
+lista_nombres = ["Sofi�a", "Mateo", "Isabella", "Lucas", "Valentina", "Alejandro", "Emma", 
+                 "Santiago", "Martina", "Sebastian", "Camila", "Nicolas", "Valeria", "Gabriel", 
                  "Antonella", "Daniel", "Lucía", "Andrés", "Renata", "Adrián", "Sara", "Diego", 
-                 "Julieta", "Joaquín", "Paula", "Leonardo", "Victoria", "Benjamín", "María", "Samuel", 
+                 "Julieta", "Joaqui�n", "Paula", "Leonardo", "Victoria", "Benjamín", "María", "Samuel", 
                  "Amelia", "David", "Elena", "Maximiliano", "Montserrat", "Ángel", "Regina", "Tomás", 
-                 "Jimena", "Cristóbal", "Fernanda", "Bruno", "Ana", "Ricardo", "Ximena", "Gael", "Andrea", 
-                 "Matías", "Carolina", "Thiago", "Daniela", "Emilio", "Alicia", "Jerónimo", "Natalia", 
-                 "Dylan", "Claudia", "Iker", "Patricia", "Iván", "Alejandra", "Alan", "Laura", "Franco", 
-                 "Gabriela", "Jesús", "Mariana", "Rodrigo", "Lorena", "Martín", "Melissa", "Juan", "Paola", 
+                 "Jimena", "Cristobal", "Fernanda", "Bruno", "Ana", "Ricardo", "Ximena", "Gael", "Andrea", 
+                 "Mati�as", "Carolina", "Thiago", "Daniela", "Emilio", "Alicia", "Jerónimo", "Natalia", 
+                 "Dylan", "Claudia", "Iker", "Patricia", "Ivan", "Alejandra", "Alan", "Laura", "Franco", 
+                 "Gabriela", "Jesus", "Mariana", "Rodrigo", "Lorena", "Martín", "Melissa", "Juan", "Paola", 
                  "Carlos", "Diana", "Pedro", "Carmen", "Miguel", "Rosa", "Jorge", "Gloria", "Luis", "Silvia", 
-                 "Antonio", "Isabel", "José", "Esther", "Manuel", "Beatriz", "Francisco", "Raquel", "Javier", 
+                 "Antonio", "Isabel", "Jose", "Esther", "Manuel", "Beatriz", "Francisco", "Raquel", "Javier", 
                  "Susana", "Raúl", "Pilar", "Alberto", "Eva", "Enrique", "Dolores", "Sergio", "Mercedes", 
-                 "Óscar", "Cristina", "Julio", "Rosario"]
+                 "Oscar", "Cristina", "Julio", "Rosario"]
 
 dict_users ={i: np.random.randint(10000, 500000) for i in lista_nombres}
 
@@ -53,4 +53,4 @@ while True:
     elif seleccion == 105:
             break 
     else:
-            print("Error: no seleccionó una opción valida")
+            print("Error: no selecciono una opci�n v�lida")
